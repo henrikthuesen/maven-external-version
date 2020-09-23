@@ -25,7 +25,7 @@
     <parent>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugins</artifactId>
-        <version>27</version>
+        <version>34</version>
     </parent>
 
     <groupId>org.apache.maven.version</groupId>
@@ -35,8 +35,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 
@@ -51,7 +51,7 @@
             <dependency>
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-core</artifactId>
-                <version>3.2.5</version>
+                <version>3.6.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
